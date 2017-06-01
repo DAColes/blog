@@ -17,7 +17,7 @@ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 date_default_timezone_set('America/New_York');
 
 //load classes as needed, no need to manually include all classes
-function __autoload($class) {
+/*function __autoload($class) {
 
     //name of class converted to lower case
     $class = strtolower($class);
@@ -40,5 +40,5 @@ function __autoload($class) {
 }
 
 //user class is instantiated and passed to the database connection so the class has access to the database.
-$user = new User($db);
+$user = new User($db);*/
 ?>
